@@ -1,0 +1,195 @@
+1. Mathematical Logic & Bit Manipulation
+Questions 1–10 · Number manipulation, logic, basic optimization
+1. + Count Digits and Calculate Digit Sum — Given an integer, count its digits and calculate their sum.
+2. + Reverse an Integer — Reverse the digits while handling negative numbers and overflow.
+3. + Palindrome Number — Determine whether a number reads the same backward.
+4. + Prime Number Check — Determine whether a number is prime without checking every smaller number.
+5. GCD and LCM — Find the greatest common divisor using Euclid's algorithm and calculate the LCM.
+6. Nth Fibonacci Number — Compare recursive and iterative approaches for finding the nth Fibonacci number.
+7. Count Set Bits — Count the number of 1s in the binary representation of an integer.
+8. Single Number — Every number appears twice except one. Find the unique number using constant extra space.
+9. Power Calculation — Calculate \(x^n\) efficiently using binary exponentiation.
+10. Decimal to Binary Conversion — Convert a non-negative decimal number into binary without a built-in conversion function.
+
+2. Arrays — Fundamentals to Intermediate
+Questions 11–26 · Array operations, in-place algorithms, optimization
+11. +Largest and Second Largest — Find the second-largest distinct element in an array.
+12. +Check if Array is Sorted — Determine whether an array is sorted in non-decreasing order.
+13. Reverse an Array In-Place — Reverse an array without using another array.
+14. Move Zeroes — Move all zeroes to the end while maintaining the order of non-zero elements.
+15. Remove Duplicates from Sorted Array — Remove duplicates in-place and return the count of unique elements.
+16. Rotate Array by K Positions — Rotate an array without using another array of the same size.
+17. Merge Two Sorted Arrays — Merge two sorted arrays into sorted order.
+18. Missing Number — An array contains n distinct numbers from 0 to n. Find the missing number.
+19. Find the Duplicate Number — Find the duplicate in an array of n+1 integers ranging from 1 to n without modifying the array.
+20. Majority Element — Find the element appearing more than n/2 times.
+21. Leaders in an Array — Find all elements greater than every element to their right.
+22. Best Time to Buy and Sell Stock — Find the maximum profit from one buy and one later sell.
+23. Maximum Subarray Sum — Find the maximum sum of any non-empty contiguous subarray using Kadane's algorithm.
+24. Sort 0s, 1s, and 2s — Sort an array containing only three distinct values in one pass.
+25. Next Permutation — Rearrange an array into the next lexicographically greater permutation.
+26. Product of Array Except Self — Calculate the product of all other elements for each position without division.
+
+3. Hashing & Prefix Sums
+Questions 27–38 · Hash maps, frequency counting, prefix sums
+27. Two Sum — Find two indices whose values add up to a target.
+28. Contains Duplicate — Determine whether any value appears at least twice.
+29. Most Frequent Element — Count the frequency of each value and identify the most frequent one.
+30. Intersection of Two Arrays — Find their common elements, preserving the minimum frequency of each value.
+31. Longest Consecutive Sequence — Find the length of the longest sequence of consecutive integers in an unsorted array.
+32. Subarray Sum Equals K — Count the contiguous subarrays whose sum equals k, including when negative numbers are present.
+33. Subarrays Divisible by K — Count subarrays whose sums are divisible by k.
+34. Largest Subarray with Equal 0s and 1s — Find the maximum-length contiguous subarray containing equal numbers of zeroes and ones.
+35. +Equilibrium Index — Find an index where the sum of values on the left equals the sum on the right.
+36. +Range Sum Query — Answer repeated queries for sums between two array indices efficiently.
+37. Range Addition Updates — Apply several interval-addition operations efficiently using a difference array.
+38. Distinct Elements in Every Window — Count distinct elements in each contiguous window of size k.
+
+4. String Manipulation
+Questions 39–50 · Character processing, frequency counting, string patterns
+39. +Reverse Words in a Sentence — Reverse word order while correctly handling extra spaces.
+40. -Valid Palindrome String — Check if a string is a palindrome after ignoring case and non-alphanumeric characters.
+41. Valid Anagram — Determine whether two strings contain the same characters with the same frequencies.
+42. First Non-Repeating Character — Find the first character that occurs exactly once.
+43. Longest Common Prefix — Find the longest common starting substring across a list of strings.
+44. String Compression — Compress consecutive repeated characters using character-frequency encoding.
+45. String Rotation Check — Determine whether one string can be formed by rotating another.
+46. Isomorphic Strings — Check whether characters in one string can be mapped consistently and uniquely to another.
+47. Group Anagrams — Group strings that are anagrams of one another.
+48. Compare Version Numbers — Compare version strings such as "1.02.3" and "1.2.10" using their numeric components.
+49. Substring Search — Find the first occurrence of a pattern inside a string; improve beyond a naive scan.
+50. Longest Palindromic Substring — Find the longest contiguous substring that is a palindrome.
+
+5. Two Pointers & Sliding Window
+Questions 51–62 · Linear-time optimization, contiguous ranges
+51. Two Sum in a Sorted Array — Find two numbers adding to a target using constant extra space.
+52. Pair with Given Difference — Determine whether two elements have an absolute difference of k.
+53. 3Sum — Find all unique triplets whose sum equals zero.
+54. Container With Most Water — Find two vertical lines that form the container with the greatest area.
+55. Trapping Rain Water — Calculate how much water can be trapped between elevation bars.
+56. Longest Subarray with Sum K — Find the longest subarray summing to k when all elements are positive.
+57. Maximum Sum Subarray of Size K — Find the largest sum among all fixed-size windows.
+58. Longest Substring Without Repeating Characters — Find the longest substring containing only unique characters.
+59. Minimum Size Subarray Sum — Find the shortest contiguous subarray with sum at least a target, given positive numbers.
+60. Fruit Into Baskets — Find the longest contiguous subarray containing at most two distinct values.
+61. Longest Repeating Character Replacement — Find the longest substring that can be made uniform with at most k character replacements.
+62. Sliding Window Maximum — Find the maximum value in every window of size k efficiently.
+
+6. Searching & Sorting
+Questions 63–75 · Binary search, search-space optimization, divide and conquer
+63. Binary Search — Find a target in a sorted array in logarithmic time.
+64. First and Last Occurrence — Find the starting and ending indices of a target in a sorted array.
+65. Lower Bound and Upper Bound — Find the first position where a value could be inserted and the position after its last occurrence.
+66. Integer Square Root — Find the floor of a non-negative integer's square root without using a square-root function.
+67. Find Peak Element — Find an element that is greater than its neighbors.
+68. Minimum in Rotated Sorted Array — Find the minimum element in a rotated sorted array with distinct values.
+69. Search in Rotated Sorted Array — Locate a target in a rotated sorted array efficiently.
+70. Search in a 2D Matrix — Search a matrix whose rows are sorted and whose first element in each row exceeds the previous row's last element.
+71. Koko Eating Bananas — Find the minimum processing speed needed to finish several piles within a deadline.
+72. Allocate Minimum Pages — Allocate contiguous books to students while minimizing the maximum pages allocated to any student.
+73. Implement Merge Sort — Sort an array using divide and conquer.
+74. Count Inversions — Count pairs of indices where i is less than j but the earlier element is greater than the later one.
+75. Implement Quick Sort — Sort an array using partitioning and understand the effect of pivot choice.
+Part 2 — Master data structures and algorithmic patterns
+
+7. Recursion & Backtracking
+Questions 76–84 · Recursive thinking, decision trees, exploration
+76. Recursive Sum of Array — Calculate the sum of an array using recursion.
+77. Generate All Subsequences — Generate every subsequence of a string.
+78. Subsets — Generate all subsets of a set of distinct integers.
+79. Permutations — Generate all possible arrangements of distinct integers.
+80. Combination Sum — Find combinations of numbers that add up to a target, with unlimited reuse allowed.
+81. Generate Parentheses — Generate all valid combinations of n pairs of parentheses.
+82. Word Search — Determine whether a word can be formed by moving through adjacent cells in a character grid without reusing cells.
+83. Rat in a Maze — Find all valid paths from the top-left to the bottom-right of a maze.
+84. N-Queens — Place n queens on an n×n chessboard such that no two attack each other.
+
+8. Linked Lists
+Questions 85–93 · Pointer manipulation, fast and slow pointers
+85. Reverse a Linked List — Reverse a singly linked list iteratively and recursively.
+86. Middle of Linked List — Find the middle node using slow and fast pointers.
+87. Linked List Cycle — Detect whether a cycle exists without using extra memory proportional to the list size.
+88. Merge Two Sorted Linked Lists — Merge two sorted linked lists while maintaining sorted order.
+89. Remove Nth Node from End — Remove a node in one traversal using two pointers.
+90. Palindrome Linked List — Determine whether the values form a palindrome using constant extra space.
+91. Intersection of Two Linked Lists — Find the node where two linked lists intersect by reference.
+92. Add Two Numbers — Add numbers represented as linked lists of digits.
+93. Reorder List — Reorder a list as first, last, second, second-last, and so on, without changing node values.
+
+9. Stack & Queue
+
+Questions 94–103 · LIFO/FIFO structures, monotonic stacks, expressions
+
+94. Valid Parentheses — Determine whether brackets are correctly balanced and nested.
+95. Min Stack — Design a stack supporting push, pop, top, and get-minimum in constant time.
+96. Implement Queue Using Stacks — Implement a FIFO queue using two stacks.
+97. Reverse a Stack Using Recursion — Reverse a stack without introducing another explicit data structure.
+98. Next Greater Element — Find the next strictly greater element to the right for each array element.
+99. Stock Span Problem — Calculate how many consecutive previous days have prices less than or equal to each day's price.
+100. Daily Temperatures — Find how many days each temperature must wait for a warmer temperature.
+101. Evaluate Postfix Expression — Calculate the value of a postfix mathematical expression using a stack.
+102. Largest Rectangle in Histogram — Find the maximum rectangular area in a histogram.
+103. Infix to Postfix Conversion — Convert mathematical expressions to postfix while respecting precedence and parentheses.
+
+10. Binary Trees & Binary Search Trees
+
+Questions 104–115 · Recursive traversal, tree properties, BFS/DFS
+104. Tree Traversals — Implement inorder, preorder, and postorder traversals of a binary tree.
+105. Binary Tree Level Order Traversal — Visit tree nodes level by level.
+106. Maximum Depth of Binary Tree — Calculate the maximum depth of a binary tree.
+107. Same Tree — Determine whether two binary trees have identical structure and values.
+108. Invert Binary Tree — Swap the left and right subtrees of every node.
+109. Diameter of Binary Tree — Find the longest path between any two nodes, measured in edges.
+110. Balanced Binary Tree — Determine whether a tree is height-balanced.
+111. Validate Binary Search Tree — Determine whether a binary tree satisfies the strict BST ordering property.
+112. Search and Insert in BST — Search for a value and insert a new value while preserving BST properties.
+113. Kth Smallest Element in BST — Find the kth smallest value in a binary search tree.
+114. Lowest Common Ancestor — Find the lowest common ancestor of two nodes in a binary tree.
+115. Binary Tree Right Side View — Return the nodes visible when looking at a binary tree from its right side.
+11. Heap & Priority Queue
+
+Questions 116–121 · Top-K elements, ordering, streams
+116. Implement Min Heap — Implement insertion, peek-minimum, and remove-minimum operations.
+117. Kth Largest Element — Find the kth largest element in an unsorted array.
+118. Top K Frequent Elements — Find the k most frequent values in an array.
+119. Merge K Sorted Lists — Merge k sorted linked lists using an efficient selection strategy.
+120. K Closest Points to Origin — Find the k points closest to the origin in a 2D plane.
+121. Find Median from Data Stream — Continuously maintain the median as new numbers arrive.
+12. Greedy Algorithms & Intervals
+Questions 122–129 · Optimal local choices, scheduling, sorting intervals
+122. Assign Cookies — Maximize the number of satisfied children using available cookie sizes.
+123. Activity Selection — Select the maximum number of non-overlapping activities.
+124. Minimum Number of Platforms — Determine the minimum train platforms needed so no arriving train has to wait.
+125. Merge Intervals — Merge all overlapping intervals.
+126. Insert Interval — Insert a new interval into a sorted non-overlapping list and merge where necessary.
+127. Jump Game — Determine whether the last index of an array is reachable given maximum jump lengths.
+128. Jump Game II — Find the minimum number of jumps required to reach the final index.
+129. Fractional Knapsack — Maximize total value when fractions of items can be selected.
+
+Part 3 — Become interview-ready
+13. Graph Algorithms
+Questions 130–140 · BFS, DFS, connectivity, cycles, shortest paths
+130. Graph DFS Traversal — Traverse all reachable vertices using depth-first search.
+131. Graph BFS Traversal — Traverse all reachable vertices using breadth-first search.
+132. Number of Connected Components — Count disconnected groups in an undirected graph.
+133. Number of Islands — Count the connected land regions in a 2D grid.
+134. Flood Fill — Recolor all connected cells belonging to the same region.
+135. Cycle Detection in Undirected Graph — Determine whether an undirected graph contains a cycle.
+136. Cycle Detection in Directed Graph — Determine whether a directed graph contains a cycle.
+137. Course Schedule — Determine whether all courses can be completed given prerequisite dependencies.
+138. Shortest Path in Unweighted Graph — Find minimum-distance paths using BFS.
+139. Dijkstra's Algorithm — Find shortest paths from a source in a weighted graph with non-negative edge weights.
+140. Check if Graph is Bipartite — Determine whether vertices can be divided into two groups with no edge connecting vertices in the same group.
+
+14. Dynamic Programming
+Questions 141–150 · State transitions, overlapping subproblems, optimization
+141. Climbing Stairs — Count the ways to reach the nth stair when each move climbs one or two steps.
+142. House Robber — Maximize money collected from houses without robbing adjacent houses.
+143. House Robber II — Solve the same problem when the houses are arranged in a circle.
+144. 0/1 Knapsack — Maximize value under a weight limit when each item can be selected at most once.
+145. Subset Sum — Determine whether a subset of given numbers adds up to a target.
+146. Coin Change — Find the minimum number of coins needed to form a given amount.
+147. Unique Paths — Count the number of ways to travel from the top-left to the bottom-right of a grid, moving only right or down.
+148. Longest Common Subsequence — Find the length of the longest subsequence common to two strings.
+149. Longest Increasing Subsequence — Find the length of the longest strictly increasing subsequence in an array.
+150. Edit Distance — Find the minimum number of insertions, deletions, and replacements needed to transform one string into another.
